@@ -178,36 +178,13 @@ $response0='{
 */
 //************************************************************************************
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   $response1=json_decode($response0,true);
   echo json_encode($response1);
   
 	
 	fwrite($myfile,json_encode($response));
    fclose($myfile);
-   
-   
-   
-   
-   
-   
+  
    /*
   $response["data"]["google"]["expectUserResponse"]='false';
   $response["data"]["google"]["isSsml"]='false';
@@ -216,18 +193,6 @@ $response0='{
   $response["data"]["google"]["systemIntent"]["intent"]="actions.intent.TEXT";
   */
   
-
-  
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
 }
 else
 {
